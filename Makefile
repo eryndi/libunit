@@ -6,14 +6,15 @@
 #    By: jpriou <jpriou@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/11/26 13:17:22 by jpriou            #+#    #+#              #
-#    Updated: 2017/11/26 14:22:47 by jpriou           ###   ########.fr        #
+#    Updated: 2017/12/12 10:47:35 by dwald            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 FRAMEWORK_FOLDER = framework/
 TESTS_LIBFT = tests_libft
 
-PATH_LIBFT = "/path/to/your/libft"
+#PATH_LIBFT = "/path/to/your/libft"
+PATH_LIBFT = ../01_Libft
 
 all : libunit
 
