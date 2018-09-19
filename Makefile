@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jpriou <jpriou@student.42.fr>              +#+  +:+       +#+         #
+#    By: dwald <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/11/26 13:17:22 by jpriou            #+#    #+#              #
-#    Updated: 2017/12/12 10:47:35 by dwald            ###   ########.fr        #
+#    Updated: 2018/09/19 11:42:44 by dwald            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,3 +37,5 @@ fclean :
 	make fclean -C $(TESTS_LIBFT)
 
 re : fclean all
+
+.PHONY : $(NAME) all libunit libft clean fclean re
